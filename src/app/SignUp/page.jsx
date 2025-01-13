@@ -222,7 +222,7 @@ function SignUpFormStep_3({ navigate, handleChange, formData }) {
             />
             <CustomDropdown
                 label="Check-In Duration"
-                menuItems={['Short-term', "Long-term", "Prefer not to say"]}
+                menuItems={["weekly", "monthly", "yearly"]}
                 onChange={(value) => handleChange(value, 'checkInDuration')}
                 value={formData.checkInDuration || ''}
             />
